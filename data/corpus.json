@@ -1,0 +1,213 @@
+[
+  {
+    "id": "N1",
+    "title": "The Red Ball",
+    "genre": "Narrative",
+    "tier": 1,
+    "words": 96,
+    "target_skill": "sentence comprehension",
+    "new_vocabulary": [
+      "red",
+      "oak"
+    ],
+    "file": "passages/N1.txt"
+  },
+  {
+    "id": "N2",
+    "title": "The Box on the Bus",
+    "genre": "Narrative",
+    "tier": 2,
+    "words": 91,
+    "target_skill": "sentence comprehension",
+    "new_vocabulary": [],
+    "file": "passages/N2.txt"
+  },
+  {
+    "id": "N3",
+    "title": "The Raincoat on the Chair",
+    "genre": "Narrative",
+    "tier": 3,
+    "words": 105,
+    "target_skill": "sentence construction",
+    "new_vocabulary": [
+      "raincoat",
+      "towel",
+      "roof"
+    ],
+    "file": "passages/N3.txt"
+  },
+  {
+    "id": "N4",
+    "title": "The Bike That Would Not Stop",
+    "genre": "Narrative",
+    "tier": 4,
+    "words": 109,
+    "target_skill": "sentence expression",
+    "new_vocabulary": [
+      "chain",
+      "loose",
+      "repair"
+    ],
+    "file": "passages/N4.txt"
+  },
+  {
+    "id": "N5",
+    "title": "The School Garden",
+    "genre": "Narrative",
+    "tier": 5,
+    "words": 115,
+    "target_skill": "sentence expression",
+    "new_vocabulary": [
+      "nobody",
+      "bean",
+      "tomato",
+      "ground",
+      "term"
+    ],
+    "file": "passages/N5.txt"
+  },
+  {
+    "id": "I1",
+    "title": "What a Seed Needs",
+    "genre": "Informational",
+    "tier": 1,
+    "words": 96,
+    "target_skill": "linguistic concepts",
+    "new_vocabulary": [
+      "soil",
+      "root",
+      "seed"
+    ],
+    "file": "passages/I1.txt"
+  },
+  {
+    "id": "I2",
+    "title": "How Bread Is Made",
+    "genre": "Informational",
+    "tier": 2,
+    "words": 91,
+    "target_skill": "linguistic concepts",
+    "new_vocabulary": [
+      "flour",
+      "wheat",
+      "yeast",
+      "dough"
+    ],
+    "file": "passages/I2.txt"
+  },
+  {
+    "id": "I3",
+    "title": "Where Rain Comes From",
+    "genre": "Informational",
+    "tier": 3,
+    "words": 95,
+    "target_skill": "sentence construction",
+    "new_vocabulary": [
+      "river",
+      "ground",
+      "vapour",
+      "million",
+      "journey"
+    ],
+    "file": "passages/I3.txt"
+  },
+  {
+    "id": "I4",
+    "title": "The Parts of a Bicycle",
+    "genre": "Informational",
+    "tier": 4,
+    "words": 100,
+    "target_skill": "sentence expression",
+    "new_vocabulary": [
+      "bicycle",
+      "frame",
+      "ground",
+      "chain",
+      "loose"
+    ],
+    "file": "passages/I4.txt"
+  },
+  {
+    "id": "I5",
+    "title": "Paper and Trees",
+    "genre": "Informational",
+    "tier": 5,
+    "words": 115,
+    "target_skill": "sentence expression",
+    "new_vocabulary": [
+      "trunk",
+      "factory",
+      "mixture",
+      "pulp",
+      "pressed",
+      "forest",
+      "supply",
+      "raw",
+      "material"
+    ],
+    "file": "passages/I5.txt"
+  },
+  {
+    "id": "D1",
+    "title": "What Is in the Bag?",
+    "genre": "Narrative with dialogue",
+    "tier": 1,
+    "words": 111,
+    "target_skill": "sentence comprehension",
+    "new_vocabulary": [
+      "afraid",
+      "careful"
+    ],
+    "file": "passages/D1.txt"
+  },
+  {
+    "id": "D2",
+    "title": "The Wet Shoes",
+    "genre": "Narrative with dialogue",
+    "tier": 2,
+    "words": 90,
+    "target_skill": "sentence comprehension",
+    "new_vocabulary": [
+      "maybe"
+    ],
+    "file": "passages/D2.txt"
+  },
+  {
+    "id": "D3",
+    "title": "The New Student",
+    "genre": "Narrative with dialogue",
+    "tier": 3,
+    "words": 92,
+    "target_skill": "sentence construction",
+    "new_vocabulary": [
+      "term"
+    ],
+    "file": "passages/D3.txt"
+  },
+  {
+    "id": "D4",
+    "title": "The Swimming Lesson",
+    "genre": "Narrative with dialogue",
+    "tier": 4,
+    "words": 103,
+    "target_skill": "sentence expression",
+    "new_vocabulary": [
+      "pool",
+      "coach"
+    ],
+    "file": "passages/D4.txt"
+  },
+  {
+    "id": "D5",
+    "title": "The Last Train Home",
+    "genre": "Narrative with dialogue",
+    "tier": 5,
+    "words": 112,
+    "target_skill": "sentence expression",
+    "new_vocabulary": [
+      "heavier",
+      "station"
+    ],
+    "file": "passages/D5.txt"
+  }
+]

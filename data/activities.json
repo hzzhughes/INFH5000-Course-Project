@@ -1,0 +1,22 @@
+[
+  {
+    "id": "profile",
+    "label": "Use the approved teaching support",
+    "instruction": "Design the practice activity around the support the teacher approved. Give the child materials and directions sufficient to complete it."
+  },
+  {
+    "id": "chunk",
+    "label": "Read in shorter blocks",
+    "instruction": "Use every word and punctuation mark of the original passage, in its original order. Divide it into at least two shorter reading blocks at natural boundaries. Only whitespace may change. Add directions for pausing and tracking the next block in the practice activity, outside the passage."
+  },
+  {
+    "id": "referent",
+    "label": "Find who or what a word refers to",
+    "instruction": "In the support activity, model how to find what one reference word (such as he, she, it or they) refers to in this passage. Ask the child to resolve a different reference in one of the questions. Choose examples with clear referents and provide the second answer and its source evidence in the teacher key."
+  },
+  {
+    "id": "evidence",
+    "label": "Find supporting words in the text",
+    "instruction": "Direct the child to identify a short detail in the reading that supports an answer. Give a concrete starting point, such as a reading block or an event, and ask the child to point to or copy the relevant words."
+  }
+]
