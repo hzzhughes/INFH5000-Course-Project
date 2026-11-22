@@ -4,6 +4,12 @@ A teacher can administer the Group 5 reading assessment, score the learner’s r
 
 The worked demo follows a scripted 37/40 attempt. Two answers reverse the order of events, so the teacher uses a fresh story to practise sequencing. The walkthrough includes the item rubrics, passage scores, learner worksheet and teacher key. [Read the demo](Worksheet_Demo.md)
 
+## Workflow
+
+![Workflow from a timed assessment through teacher marking and lesson planning to a checked learner worksheet and teacher key.](figures/workflow.png)
+
+The diagram shows where the teacher reviews evidence and where the app checks the generated draft. [LaTeX/TikZ source](figures/workflow.tex)
+
 ## Run the app
 
 From this folder, use Python 3.11 or 3.12 to install the dependencies and start Streamlit.
