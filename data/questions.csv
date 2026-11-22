@@ -1,0 +1,201 @@
+question_id,passage_id,mode,question,answer,rubric
+N1.1,N1,oral,Who has a red ball?,"Tim, the boy","names Tim, or 'the boy', as the owner of the ball"
+N1.2,N1,oral,Who comes with Tim to the park?,His dog,names the dog as the companion
+N1.3,N1,choice,What does the dog do first? A. He runs after a bird.  B. He digs a hole.  C. He waits at the gate.  D. He sleeps under the tree.,A,"selects A, the dog running after the bird"
+N1.4,N1,choice,Where does the ball go? A. Under the big oak tree.  B. Into his bag.  C. Into the dog's mouth.  D. Up into the sun.,A,"selects A, the ball going under the oak tree"
+N1.5,N1,oral,What does Tim do when the ball is gone?,"He looks for it, and he looks and looks",says that Tim looks for the ball
+N1.6,N1,oral,What does he see then?,A hole near the tree,names the hole near the tree
+N1.7,N1,choice,Where is the ball? A. Under the tree.  B. In the hole.  C. With his mother.  D. In the dog's mouth.,B,"selects B, the ball being in the hole"
+N1.8,N1,oral,How does Tim get the ball out?,He puts his hand into the hole and takes the ball out,says that Tim puts his hand into the hole and takes the ball out
+N1.9,N1,oral,What does he do with the ball then?,He kicks the ball to the dog,says that Tim kicks the ball to the dog
+N1.10,N1,oral,How does the dog feel at the end?,Happy,says the dog is happy
+N1.11,N1,choice,Who waits at the gate? A. Tim's mother.  B. The bird.  C. The dog.  D. Nobody waits.,A,"selects A, Tim's mother waiting at the gate"
+N1.12,N1,oral,Put these three events in order: the dog runs after a bird; the ball goes under the tree; Tim looks for the ball.,"The dog runs after a bird, then the ball goes under the tree, then Tim looks for the ball",gives the three events in the order the passage gives them
+N1.13,N1,written,Put these words in order to make a sentence: ball / dog / kicks / Tim,Tim kicks the ball to the dog.,"writes the four words in the correct order, with the subject first and the verb before its object"
+N2.1,N2,oral,Who is on the bus?,"Ana, a girl",names Ana as the girl on the bus
+N2.2,N2,oral,What is the blue box for?,It is for her new shoes,says the box is for her new shoes
+N2.3,N2,choice,Why is the bus late? A. Because of the rain.  B. Because of the sun.  C. Because the road is long.  D. Because the driver is new.,A,"selects A, the rain"
+N2.4,N2,oral,Where does Ana look for the shoes first?,In her bag,says she looks in her bag
+N2.5,N2,oral,What does she find in the box?,Nothing; the box is empty,says the box is empty
+N2.6,N2,oral,How does Ana feel when the box is empty?,Sad,says she is sad
+N2.7,N2,choice,Where does Ana find the shoes? A. In her bag.  B. Under the seat.  C. On the floor.  D. In the rain.,B,"selects B, the shoes being under the seat"
+N2.8,N2,oral,What does Ana do with the shoes?,She takes them out and puts them in the box,says she takes the shoes out and puts them in the box
+N2.9,N2,oral,What does the weather do at the end of the story?,The rain stops and the sun comes out,says the rain stops and the sun comes out
+N2.10,N2,choice,What does Ana do at the end of the story? A. She smiles at the window.  B. She runs to school.  C. She calls her mother.  D. She falls asleep.,A,"selects A, her smiling at the window"
+N2.11,N2,choice,What does the passage say about school? A. Ana is early for school.  B. Ana is late for school today.  C. Ana goes to school by bus every day.  D. Ana does not go to school today.,B,"selects B, Ana being late for school today"
+N2.12,N2,oral,Put these three events in order: the bus is late because of the rain; Ana looks under the seat; Ana smiles at the window.,"The bus is late because of the rain, then Ana looks under the seat, then she smiles at the window",gives the three events in the order the passage gives them
+N2.13,N2,written,Put these words in order to make a sentence: shoes / box / Ana / puts,Ana puts the shoes in the box.,"writes the four words in the correct order, with the subject first and the verb before its object"
+N3.1,N3,oral,What was Tom doing when the sky became dark?,He was playing in the yard,says he was playing in the yard
+N3.2,N3,choice,Why did Tom's mother call him in? A. Because it was lunch time.  B. Because the rain was coming.  C. Because his boots were dirty.  D. Because his sister was reading.,B,"selects B, the rain coming"
+N3.3,N3,oral,What did Tom do first when he went in?,He ran to the door and put his boots on,says he ran to the door and put his boots on
+N3.4,N3,oral,Where were his boots?,They were left by the door,says the boots were left by the door
+N3.5,N3,choice,Where was the raincoat? A. On the chair in the hall.  B. On the roof.  C. In the yard.  D. In his bag.,A,"selects A, the chair in the hall"
+N3.6,N3,oral,Why did the water come in?,Because the door was open while Tom was looking for his raincoat,links the water coming in to the open door
+N3.7,N3,oral,What did Tom do when he found that the raincoat was wet?,He asked his sister for a towel,says he asked his sister for a towel
+N3.8,N3,choice,What was his sister doing? A. She was cooking.  B. She was reading a book.  C. She was in the yard.  D. She was looking for the raincoat.,B,"selects B, her reading a book"
+N3.9,N3,oral,What did his sister do?,She gave him the towel and closed the window,says she gave him the towel and closed the window
+N3.10,N3,oral,What do Tom and his sister do at the end?,They sit down and look at the rain,says they sit down and look at the rain
+N3.11,N3,choice,How does the rain sound? A. Loud on the roof.  B. Quiet on the roof.  C. Like music.  D. Like a bell.,A,"selects A, the rain being loud on the roof"
+N3.12,N3,oral,Put these three events in order: Tom asks his sister for a towel; his sister closes the window; the water comes in through the open door.,"The water comes in through the open door, then Tom asks his sister for a towel, then she closes the window",gives the three events in the order the passage gives them
+N3.13,N3,written,"Rewrite this sentence in the passive voice: ""His mother called him in.""",He was called in by his mother.,writes a passive sentence in which he is the subject and his mother is named as the agent
+N4.1,N4,oral,Where did Ben want to ride his new bike?,To the park,says he wanted to ride to the park
+N4.2,N4,oral,What problem did the bike have?,The chain made a loud noise,says the chain made a loud noise
+N4.3,N4,choice,Why did Ben stop riding? A. The chain was loose.  B. The tyres were flat.  C. The box was lost.  D. The sun went down.,A,"selects A, the loose chain"
+N4.4,N4,oral,Who did Ben ask for help?,His father,names his father
+N4.5,N4,oral,What did his father do?,He showed Ben how to fix it,says his father showed him how to fix the chain
+N4.6,N4,choice,How did Ben feel about the repair? A. He was happy to wait.  B. He did not want to give up.  C. He wanted to go home.  D. He asked another boy.,B,"selects B, his not wanting to give up"
+N4.7,N4,oral,What would happen if Ben fixed the chain?,He could go to the park before it got dark,says he could go to the park before it got dark
+N4.8,N4,oral,What happened when the chain was fixed?,"The noise stopped, and Ben rode home very fast",says the noise stopped and that Ben rode home very fast
+N4.9,N4,oral,Where did Ben put the tools?,"Back in the box, and he left the box in the shed",says he put the tools back in the box and left the box in the shed
+N4.10,N4,choice,What does the passage say about the sky at the end? A. It was orange.  B. It was black.  C. It was blue.  D. It was full of stars.,A,"selects A, the orange sky"
+N4.11,N4,choice,How long did the repair take? A. A long time.  B. A minute.  C. All morning.  D. Not long at all.,A,"selects A, a long time"
+N4.12,N4,oral,Put these three events in order: Ben asks his father for help; the chain is loose; Ben rides home very fast.,"The chain is loose, then Ben asks his father for help, then he rides home very fast",gives the three events in the order the passage gives them
+N4.13,N4,written,"Rewrite this sentence in the passive voice: ""His father showed him how to fix it.""",He was shown how to fix the chain by his father.,writes a passive sentence in which he is the subject and his father is named as the agent
+N5.1,N5,oral,How long had the school garden been empty?,For two years,says two years
+N5.2,N5,choice,Why was the garden empty? A. The school was closed.  B. The old trees had fallen and nobody planted anything new.  C. The children did not like vegetables.  D. The teacher said no.,B,"selects B, the fallen trees and nobody planting anything new"
+N5.3,N5,oral,What did the class ask the teacher?,Whether they could grow food there,says they asked whether they could grow food there
+N5.4,N5,oral,What did several children think?,That it would be too hard,says several children thought it would be too hard
+N5.5,N5,choice,What did the teacher say they could start with? A. Beans and tomatoes.  B. Apples and pears.  C. Rice and wheat.  D. Flowers only.,A,"selects A, beans and tomatoes"
+N5.6,N5,oral,Why did the teacher choose those plants?,Because these plants do not need much water,gives the low water need as the reason
+N5.7,N5,choice,What did the class do first? A. They planted the seeds.  B. They cleared the ground.  C. They bought a tree.  D. They asked the families for help.,B,"selects B, clearing the ground"
+N5.8,N5,oral,How long did the work take?,Three weeks,says three weeks
+N5.9,N5,oral,Why did the garden stay alive?,Because they took turns every day,gives the daily turns as the reason
+N5.10,N5,oral,What did they do with the vegetables the school could not eat?,They gave half of them to the families,says they gave half of the vegetables to the families
+N5.11,N5,choice,The class worked for three weeks. What does the passage say about the work? A. It was tiring.  B. It was quick.  C. They did no work.  D. They were playing.,A,"selects A, the work being tiring"
+N5.12,N5,oral,Put these three events in order: they give half the vegetables to the families; they clear the ground; they take turns every day.,"They clear the ground, then they take turns every day, then they give half the vegetables to the families",gives the three events in the order the passage gives them
+N5.13,N5,written,"Rewrite this sentence in the passive voice: ""They cleared the ground in three weeks.""",The ground was cleared in three weeks.,writes a passive sentence in which the ground is the subject
+I1.1,I1,oral,What is a seed?,A part of a plant,says a seed is a part of a plant
+I1.2,I1,oral,What does the coat do?,It keeps the seed safe,says the coat keeps the seed safe
+I1.3,I1,choice,How many things does a seed need? A. Two.  B. Three.  C. Four.  D. Five.,B,"selects B, three things"
+I1.4,I1,choice,Which of these does a seed NOT need? A. Water.  B. Air.  C. Warm soil.  D. Dark.,D,"selects D, dark, which the passage does not name"
+I1.5,I1,oral,What are the three things a seed needs?,"Water, air and warm soil","names water, air and warm soil"
+I1.6,I1,oral,What happens when the seed has what it needs?,It begins to grow,says the seed begins to grow
+I1.7,I1,choice,Which way does the root go? A. Down into the soil.  B. Up to the sun.  C. Into the coat.  D. Towards the rain.,A,"selects A, down into the soil"
+I1.8,I1,oral,What does the plant do day by day?,It grows bigger every day,says the plant grows bigger every day
+I1.9,I1,oral,What do some seeds do for many months?,They sleep and wait for the cold to pass,says they sleep and wait for the cold to pass
+I1.10,I1,oral,What wakes the sleeping seeds up?,The warm rain,names the warm rain
+I1.11,I1,choice,What is inside every seed? A. A small root.  B. A small plant.  C. A coat.  D. Some water.,B,"selects B, a small plant"
+I1.12,I1,oral,Put these three events in order: the seed begins to grow; the warm rain wakes the seeds up; the cold passes.,"The cold passes, then the warm rain wakes the seeds up, then the seed begins to grow",gives the three events in the order the passage gives them
+I1.13,I1,written,Put these words in order to make a sentence: seed / plant / small / a,Every seed has a small plant inside it.,"writes the four words in the correct order, with the subject first and the verb before its object"
+I2.1,I2,oral,What is bread made from?,Flour,names flour
+I2.2,I2,oral,Where does flour come from?,From wheat,says flour comes from wheat
+I2.3,I2,choice,What does the machine do? A. It cuts the wheat.  B. It turns the wheat into flour.  C. It mixes the dough.  D. It bakes the bread.,B,"selects B, turning the wheat into flour"
+I2.4,I2,oral,What does the baker mix the flour with?,"Water, salt and yeast","names water, salt and yeast"
+I2.5,I2,oral,What is yeast?,A small living thing,calls yeast a small living thing
+I2.6,I2,oral,What does yeast eat?,The sugar in the flour,says it eats the sugar in the flour
+I2.7,I2,choice,What does the yeast make? A. Holes in the dough.  B. Salt in the flour.  C. A machine.  D. The oven.,A,"selects A, holes in the dough"
+I2.8,I2,oral,What does the gas do?,It makes holes in the dough,says the gas makes holes in the dough
+I2.9,I2,oral,What does the hot oven do?,It bakes the shaped dough,says the hot oven bakes the dough
+I2.10,I2,choice,"What is the bread like when it comes out? A. White and cold.  B. Brown, and it smells good.  C. Hard and dry.  D. It smells of yeast.",B,"selects B, brown and smelling good"
+I2.11,I2,choice,When does the baker sell the bread? A. At night.  B. In the morning.  C. At lunch.  D. At the end of the week.,B,"selects B, in the morning"
+I2.12,I2,oral,Put these four stages in order: the wheat is cut; the baker sells the bread; the gas makes holes in the dough; the bread comes out of the oven.,"The wheat is cut, then the gas makes holes in the dough, then the bread comes out of the oven, then the baker sells it",gives the four stages in the order the passage gives them
+I2.13,I2,written,"Rewrite this sentence in the passive voice: ""The baker mixes the flour with water, salt and yeast.""","The flour is mixed with water, salt and yeast by the baker.",writes a passive sentence in which the flour is the subject and the baker is named as the agent
+I3.1,I3,choice,The sea gets its water from: A. rivers and the ground.  B. the sun.  C. the clouds.  D. the wind.,A,"selects A, rivers and the ground"
+I3.2,I3,oral,What is the water in the air called?,Water vapour,gives the term water vapour
+I3.3,I3,oral,What makes the water go up into the air?,The warm sun pulls it up,says the sun pulls the water up into the air
+I3.4,I3,choice,"While the vapour rises, what happens to it? A. It becomes cold and turns into tiny drops.  B. It becomes hotter.  C. It stays the same.  D. It falls back into the sea.",A,"selects A, the vapour becoming cold and turning into drops"
+I3.5,I3,oral,What do millions of the tiny drops together make?,A cloud,names a cloud
+I3.6,I3,oral,Why do the drops fall down as rain?,Because the cloud is heavy,gives the weight of the cloud as the reason
+I3.7,I3,choice,What happens when the rain reaches the ground? A. It runs into the rivers again.  B. It stays in the sea.  C. It disappears.  D. It stays in the cloud.,A,"selects A, the rain running into the rivers again"
+I3.8,I3,oral,"The passage says ""The whole journey starts once more"". What does that mean?","The water goes round the same path again: sea, air, cloud, rain, rivers, sea",explains that the water repeats the same cycle
+I3.9,I3,oral,What does the last sentence say about water?,It is always on the move,says that the water is always on the move
+I3.10,I3,choice,Which word in the passage names the small drops? A. Vapour.  B. Cloud.  C. Drops.  D. Journey.,C,"selects C, drops"
+I3.11,I3,oral,Put these four stages in order: the rain reaches the ground; the water vapour rises; the drops fall down; a cloud forms.,"The water vapour rises, a cloud forms, the drops fall down, the rain reaches the ground",gives the four stages in the order the passage gives them
+I3.12,I3,written,"Rewrite this sentence in the passive voice: ""The sun pulls the water up.""",The water is pulled up by the sun.,writes a passive sentence in which the water is the subject and the sun is named as the agent
+I3.13,I3,oral,"The passage says the cold water ""turns back"" into tiny drops. What does the word ""back"" tell us?",That the water was drops before it rose into the air as vapour,explains that the water was drops before it became vapour
+I4.1,I4,oral,What is a bicycle?,A machine with many parts,calls it a machine with many parts
+I4.2,I4,oral,What does the frame do?,It holds the rider and the other parts together,says it holds the rider and the other parts together
+I4.3,I4,choice,What does the frame NOT do? A. Move by itself.  B. Hold the rider.  C. Hold the other parts.  D. Join the pedals to the wheel.,A,"selects A, the frame not moving by itself"
+I4.4,I4,oral,What do the two wheels do?,They roll on the ground,says the wheels roll on the ground
+I4.5,I4,choice,What does the chain join? A. The pedals to the back wheel.  B. The wheels to the frame.  C. The brakes to the handles.  D. The tyres to the seat.,A,"selects A, the pedals and the back wheel"
+I4.6,I4,oral,What happens when the rider pushes the pedals?,The wheel turns,says the wheel turns
+I4.7,I4,oral,What do the brakes do?,They slow the bike down when the rider squeezes the handles,says the brakes slow the bike down when the rider squeezes the handles
+I4.8,I4,choice,Why must the parts work together? A. Because they are expensive.  B. Because a bike with a loose chain will not move.  C. Because the tyres are hard.  D. Because the rider is new.,B,"selects B, a bike with a loose chain not moving"
+I4.9,I4,oral,What does a good rider check before every ride?,The tyres and the chain,names the tyres and the chain
+I4.10,I4,oral,"What does ""it does not move by itself"" tell us about the frame?","That the frame has to be worked by the other parts, and is not the part that drives the bike",explains that the frame is held together by other parts rather than driving them
+I4.11,I4,choice,Which part does the rider squeeze? A. The pedals.  B. The handles.  C. The seat.  D. The wheels.,B,"selects B, the handles"
+I4.12,I4,oral,Put these three parts in the order the passage names them: the frame; the wheels; the chain.,"The frame, then the wheels, then the chain",gives the three parts in the order the passage names them
+I4.13,I4,written,"Rewrite this sentence in the passive voice: ""The chain joins the pedals to the back wheel.""",The pedals are joined to the back wheel by the chain.,writes a passive sentence in which the pedals are the subject and the chain is named as the agent
+I5.1,I5,oral,What is paper?,A thin sheet that people make from wood,calls it a thin sheet that people make from wood
+I5.2,I5,choice,Where does almost all the paper in the world come from? A. From the sea.  B. From trees.  C. From wheat.  D. From old clothes.,B,"selects B, trees"
+I5.3,I5,oral,What part of the tree is sent to the factory?,The trunk,names the trunk
+I5.4,I5,oral,What happens to the wood at the factory?,It is broken into pieces and mixed with water,says the wood is broken into pieces and mixed with water
+I5.5,I5,choice,What is the soft mixture called? A. Paper.  B. Pulp.  C. The belt.  D. The roller.,B,"selects B, pulp"
+I5.6,I5,oral,What is spread on the moving belt?,The pulp,says the pulp is spread on the belt
+I5.7,I5,choice,What happens to the water in the pulp? A. It is pressed out of it.  B. It is heated.  C. More is added to it.  D. It freezes.,A,"selects A, the water being pressed out"
+I5.8,I5,oral,What does the hot roller do?,It dries the sheet,says the hot roller dries the sheet
+I5.9,I5,oral,Why is the sheet pressed again?,Until it is smooth and strong,gives smoothness and strength as the reason
+I5.10,I5,choice,How much paper does one tree give? A. A little.  B. A great deal.  C. None at all.  D. Enough for a whole school.,A,"selects A, only a little paper from one tree"
+I5.11,I5,oral,"What does ""a forest can supply a great deal"" tell us?",That many trees together give a lot of paper,explains that the forest as a whole gives a great deal
+I5.12,I5,oral,What two things would keep the raw material from running out?,"Planting new trees, and using paper carefully",names planting new trees and using paper carefully
+I5.13,I5,written,"In the sentence ""a forest can supply a great deal"", replace ""supply"" with another word of nearly the same meaning, and use it in a sentence.","For example: ""a forest can provide a great deal""","gives a word of nearly the same meaning, such as provide or yield, and uses it in a sentence that keeps the meaning"
+D1.1,D1,oral,What does the girl say first?,"""Hello""",says hello
+D1.2,D1,choice,"What does the friend ask? A. ""What is in your bag?""  B. ""Where is your cat?""  C. ""Is your bag new?""  D. ""Can I play with you?""",A,"selects A, the question about the bag"
+D1.3,D1,oral,What does the girl say when the friend asks about the bag?,"""I do not know""",says she does not know
+D1.4,D1,oral,What does she find in the bag?,A cat,names a cat
+D1.5,D1,choice,What does the cat do? A. It runs away.  B. It says nothing.  C. It says hello.  D. It sleeps.,B,"selects B, the cat saying nothing"
+D1.6,D1,oral,What colour is the cat?,Black and white,says black and white
+D1.7,D1,choice,Who gave the girl the cat? A. Her mother.  B. Her father.  C. Her friend.  D. The shop.,B,"selects B, her father"
+D1.8,D1,oral,When did the girl get the cat?,Last week,says last week
+D1.9,D1,oral,What must the girl do every day?,Feed the cat,says she must feed the cat every day
+D1.10,D1,oral,Why is the girl afraid?,That the cat will run away,says she is afraid the cat will run away
+D1.11,D1,oral,What does the girl tell the friend at the end?,"""You can hold it. Be careful.""",says the friend can hold the cat but must be careful
+D1.12,D1,oral,What do the two of them do after the girl shows the cat?,They play with the cat,says they play with the cat
+D1.13,D1,written,Put these words in order to make a sentence: cat / girl / a / has,The girl has a cat.,"writes the four words in the correct order, with the subject first and the verb before its object"
+D1.14,D1,written,Put these words in order to make a sentence: cat / black and white / is,The cat is black and white.,"writes the three words in the correct order, with the subject first and the verb before its description"
+D2.1,D2,choice,"What does Mei ask first? A. ""Where are my shoes?""  B. ""Who took my shoes?""  C. ""Can I go out?""  D. ""Is the dog hungry?""",A,"selects A, the question about her shoes"
+D2.2,D2,oral,Where does Mei look first?,Under the bed,says she looks under the bed
+D2.3,D2,oral,What does she say about the shoes?,"""They are not here""",says they are not here
+D2.4,D2,oral,Why were the shoes by the door?,Because she put them there this morning,gives her having put them there this morning
+D2.5,D2,choice,Who comes into the room? A. Her brother.  B. Her friend.  C. The teacher.  D. The dog.,A,"selects A, her brother"
+D2.6,D2,oral,What does the brother think?,That maybe the dog took them,says the brother thinks maybe the dog took them
+D2.7,D2,oral,What does the dog do when Mei looks at it?,It looks at the floor,says the dog looks at the floor
+D2.8,D2,choice,What does Mei find? A. One shoe in the dog's mouth.  B. Both shoes on the bed.  C. The shoes by the door.  D. A shoe in her bag.,A,"selects A, one shoe in the dog's mouth"
+D2.9,D2,oral,What does Mei do with the shoe?,She takes it away,says she takes the shoe away
+D2.10,D2,oral,What does Mei do at the end of the story?,She puts her shoes on and goes out,says she puts her shoes on and goes out
+D2.11,D2,oral,"What does ""now we know where the shoes are"" tell us?","That the dog had taken them, and the question is answered",explains that the dog had taken the shoes
+D2.12,D2,oral,Put these three events in order: Mei looks at the dog; the brother comes into the room; Mei puts her shoes on.,"The brother comes into the room, then Mei looks at the dog, then she puts her shoes on",gives the three events in the order the passage gives them
+D2.13,D2,written,Put these words in order to make a sentence: Mei / shoes / puts / her,Mei puts her shoes on.,"writes the four words in the correct order, with the subject first and the verb before its object"
+D2.14,D2,written,"In the sentence ""Maybe the dog took them"", replace ""maybe"" with another word of nearly the same meaning, and use it in a sentence.","For example: ""Perhaps the dog took them.""","gives a word of nearly the same meaning, such as perhaps or possibly, and uses it in a sentence that keeps the meaning"
+D3.1,D3,choice,"What does the boy ask at the start? A. ""Is this seat free?""  B. ""What is your name?""  C. ""Where is the reading room?""  D. ""Can I see your book?""",A,"selects A, the question about the seat"
+D3.2,D3,oral,When does this happen?,On the first day of term,says it is the first day of term
+D3.3,D3,oral,Who is the new boy?,Peter,names Peter
+D3.4,D3,oral,Who is the girl?,Ana,names Ana
+D3.5,D3,choice,What is the new book about? A. Trains.  B. Animals.  C. The sea.  D. Cooking.,A,"selects A, trains"
+D3.6,D3,oral,Who asks to see the book?,Peter,says Peter asks to see it
+D3.7,D3,oral,What does Ana tell Peter about the reading room?,That they must be quiet in it,says they must be quiet in the reading room
+D3.8,D3,choice,"What does Peter promise? A. ""I will be"" quiet.  B. ""I will go home.""  C. ""I will not look.""  D. ""I will read it now.""",A,"selects A, his promise to be quiet"
+D3.9,D3,oral,What do the two children do while the teacher writes on the board?,They look at the book together,says they look at the book together
+D3.10,D3,oral,What do they NOT do while they look at the book?,They do not say a word,says they do not say a word
+D3.11,D3,oral,Where does Peter put his bag?,On the floor,says he puts his bag on the floor
+D3.12,D3,oral,Put these three things in order: Peter asks to see the book; Ana tells him to be quiet; they look at the book together.,"Peter asks to see the book, then Ana tells him to be quiet, then they look at the book together",gives the three events in the order the passage gives them
+D3.13,D3,written,Put these words in order to make a sentence: book / new / a / have,I have a new book.,"writes the four words in the correct order, with the subject first and the verb before its object"
+D3.14,D3,written,"Rewrite this sentence in the passive voice: ""The teacher writes on the board.""",The board is written on by the teacher.,writes a passive sentence in which the board is the subject and the teacher is named as the agent
+D4.1,D4,choice,"What does Tom say at the start? A. ""I do not want to go in.""  B. ""The water is warm.""  C. ""I am cold.""  D. ""Where is the coach?""",A,"selects A, his refusal to go in"
+D4.2,D4,oral,Where does Tom stand?,By the side of the pool,says he stands by the side of the pool
+D4.3,D4,oral,Why is the water cold?,Because it is morning,gives the morning as the reason
+D4.4,D4,oral,What does Tom say about the sun?,That it is coming out,says the sun is coming out
+D4.5,D4,oral,What does the coach say will happen?,That it will feel better if Tom puts his foot in,says it will feel better once he puts his foot in
+D4.6,D4,oral,What does Tom do first?,He puts one foot in the cold water,says he puts one foot in the cold water
+D4.7,D4,choice,"What does Tom say after trying one foot? A. ""That was not so bad.""  B. ""I am going home.""  C. ""The water is hot.""  D. ""I am cold.""",A,"selects A, that it was not so bad"
+D4.8,D4,oral,What does he count to?,Three,says he counts to three
+D4.9,D4,oral,What does he do then?,He jumps in,says he jumps in
+D4.10,D4,oral,How does his body feel soon afterwards?,Warm,says his body feels warm
+D4.11,D4,choice,Who does Tom tell about it? A. His coach.  B. His mother.  C. The pool.  D. His friend.,B,"selects B, his mother"
+D4.12,D4,written,"In the sentence ""The water is cold"", replace ""cold"" with another word of nearly the same meaning, and use it in a sentence.","For example: ""The water is chilly.""","gives a word of nearly the same meaning, such as chilly or cool, and uses it in a sentence that keeps the meaning"
+D4.13,D4,oral,Put these three things in order: Tom counts to three and jumps in; Tom puts one foot in the water; his body feels warm.,"Tom puts one foot in the water, then he counts to three and jumps in, then his body feels warm",gives the three events in the order the passage gives them
+D4.14,D4,written,"Rewrite this sentence in the passive voice: ""Tom puts one foot in the cold water.""",One foot is put in the cold water by Tom.,writes a passive sentence in which the foot is the subject and Tom is named as the agent
+D5.1,D5,oral,Who is worried about the last train?,Rui,names Rui
+D5.2,D5,oral,How is the weather when they set out?,The rain is heavier now,says the rain is heavier
+D5.3,D5,oral,Why is the station a problem for them?,Because it is far away,says the station is far away
+D5.4,D5,choice,"What does Rui's sister say? A. ""If we run we get wet, but if we wait we miss the train.""  B. ""The train is early.""  C. ""We should ask the driver.""  D. ""The rain will stop soon.""",A,"selects A, the run-or-wait choice"
+D5.5,D5,oral,What does Rui suggest they do?,Ask the driver,says they should ask the driver
+D5.6,D5,oral,How do they get a ride?,They wave down a bus,says they wave down a bus
+D5.7,D5,oral,What does the driver say about the station?,That it is closed,says the station is closed
+D5.8,D5,choice,What does the driver offer to do? A. Take them to the next station.  B. Wait for the train with them.  C. Give them tickets for the train.  D. Drive them home.,A,"selects A, the driver offering to take them to the next station"
+D5.9,D5,choice,Why do they have time for hot tea? A. Because the train is late.  B. Because the rain stops.  C. Because the bus is slow.  D. Because they are hungry.,A,"selects A, the train being late"
+D5.10,D5,oral,What does Rui say would have happened if they had run?,They would have been wet and cold,says they would have been wet and cold
+D5.11,D5,oral,How do they feel at the end?,They are warm,says they are warm
+D5.12,D5,oral,What happens at the very end of the story?,The train arrives as they sit down,says the train arrives as they sit down
+D5.13,D5,written,"Rewrite this sentence in the passive voice: ""The driver takes them to the next one.""",They are taken to the next station by the driver.,writes a passive sentence in which they are the subject and the driver is named as the agent
+D5.14,D5,written,"In the sentence ""If we run, we get wet"", replace ""wet"" with another word of nearly the same meaning, and use it in a sentence.","For example: ""If we run, we get soaked.""","gives a word of nearly the same meaning, such as soaked or drenched, and uses it in a sentence that keeps the meaning"

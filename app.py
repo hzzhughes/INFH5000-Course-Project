@@ -4,14 +4,12 @@ import os
 
 import streamlit as st
 
+from assessment_ui import reading_assessment
 from providers import make_client
 from workflow import (
     check_profile,
-    check_worksheet,
-    extract_profile,
     generate_worksheet,
     load_activities,
-    load_cases,
     load_corpus,
     render_markdown,
 )
@@ -62,28 +60,6 @@ def show_worksheet(worksheet, passage, objective, key):
         )
 
 
-def worked_examples(corpus, cases):
-    st.header("Worked examples")
-    st.write("Compare two fictional assessment excerpts for the same lesson. Both worksheets are saved examples you can open offline.")
-    by_id = {passage["id"]: passage for passage in corpus}
-    shared_passage = by_id[cases[0]["passage_id"]]
-    st.markdown(f"**Lesson objective** · {cases[0]['objective']}")
-    show_source(shared_passage)
-    for column, case in zip(st.columns(len(cases)), cases):
-        with column:
-            st.subheader(case["label"])
-            st.markdown("**Assessment excerpt**")
-            st.write(case["report"])
-            with st.expander("Evidence from the excerpt"):
-                for observation in case["profile"]["observations"]:
-                    st.write(observation["finding"])
-                    st.caption(f"“{observation['quote']}”")
-            st.markdown("**Selected support**")
-            st.write(case["profile"]["support"])
-            st.divider()
-            show_worksheet(case["worksheet"], by_id[case["passage_id"]], case["objective"], case["id"])
-
-
 def model_settings():
     backend = st.radio("Model provider", ["OpenAI", "Ollama"], horizontal=True)
     model_defaults = {"OpenAI": ("OPENAI_MODEL", "gpt-4.1-mini"), "Ollama": ("OLLAMA_MODEL", "gemma3:4b")}
@@ -94,17 +70,21 @@ def model_settings():
         api_key = os.environ.get("OPENAI_API_KEY", "")
         if not api_key:
             api_key = st.text_input("OpenAI API key", type="password", key="openai-key").strip()
-        st.caption("Extract profile sends the excerpt to OpenAI. Generate worksheet sends the reviewed profile, source text, and lesson objective.")
+        st.caption("Generation sends the missed-item specifications, passage, teaching support "
+                   "and lesson requirements to OpenAI.")
     else:
         st.caption("Ollama uses a model running on this computer. Start Ollama and download the named model before generating.")
     return backend, model, api_key
 
 
-def create_worksheet(corpus, cases):
+def create_worksheet(corpus):
     st.header("Create a worksheet")
-    backend, model, api_key = model_settings()
-    configured = bool(model and (backend == "Ollama" or api_key))
     state = st.session_state
+    assessment = state.get("assessment_result")
+    if assessment is None or not assessment["completed"]:
+        st.info("Score an assessment with at least one learner response to create a worksheet.")
+        st.button("Go to reading assessment", on_click=lambda: state.update(workspace="Reading assessment"))
+        return
 
     st.subheader("1. Choose the lesson")
     selection = st.selectbox(
@@ -114,71 +94,55 @@ def create_worksheet(corpus, cases):
     )
     passage = corpus[selection]
     show_source(passage)
-    initial_objective = next(
-        (case["objective"] for case in cases if case["passage_id"] == passage["id"]),
-        passage["target_skill"].capitalize(),
-    )
     objective = st.text_input(
-        "Lesson objective", value=initial_objective, key=f"objective-{passage['id']}"
+        "Lesson objective", value=passage["target_skill"].capitalize(), key=f"objective-{passage['id']}"
+    ).strip()
+    requirements = st.text_area(
+        "Additional teaching requirements",
+        placeholder="Target vocabulary, letter–sound patterns, previously taught skills, "
+                    "topic, length or presentation preferences",
+        key=f"requirements-{passage['id']}",
     ).strip()
 
     st.subheader("2. Review the assessment")
-    sample = st.selectbox(
-        "Starting excerpt",
-        options=[*range(len(cases)), None],
-        format_func=lambda i: "Write your own" if i is None else cases[i]["label"],
-    )
-    report = st.text_area(
-        "Fictional assessment excerpt",
-        value=cases[sample]["report"] if sample is not None else "",
-        height=115,
-        key=f"report-{sample}",
-    ).strip()
-    profile_context = (backend, model, report)
-    if state.get("profile_context") != profile_context:
-        state.pop("profile", None)
-        state.pop("worksheet_result", None)
-        state["profile_context"] = profile_context
-    if st.button("Extract profile", disabled=not (configured and report)):
-        state.pop("profile", None)
-        state.pop("worksheet_result", None)
-        try:
-            with st.spinner("Reading the assessment excerpt…"):
-                extracted = extract_profile(report, make_client(backend, model, api_key))
-        except (RuntimeError, ValueError) as error:
-            st.error(str(error))
-        else:
-            state["profile"] = extracted
-            state["edit_version"] = state.get("edit_version", 0) + 1
-    if "profile" not in state:
-        return
+    report = assessment["report"]
+    error_items = assessment["error_items"]
+    st.write(assessment["summary"])
+    with st.expander("Scored report and item responses"):
+        st.text(report)
+    if error_items:
+        with st.expander(f"Missed items for worksheet generation ({len(error_items)})"):
+            for item in error_items:
+                st.write(f"{item['question_id']} · {item['question']}")
+                st.caption(item["rubric"])
+    else:
+        st.caption("All answered items met the rubric. Choose a lesson objective for further practice.")
 
-    profile = state["profile"]
-    version = state["edit_version"]
-    st.write("Edit the findings and check each quote against the excerpt.")
+    profile = assessment["profile"]
+    st.write("Review the observations and check each quote against the assessment.")
     edited_rows = st.data_editor(
         profile["observations"] or [{"finding": "", "quote": ""}],
         column_config={
             "finding": st.column_config.TextColumn("Observation"),
-            "quote": st.column_config.TextColumn("Exact quote from excerpt"),
+            "quote": st.column_config.TextColumn("Exact quote from assessment"),
         },
         column_order=["finding", "quote"],
         num_rows="dynamic",
         hide_index=True,
-        key=f"observations-{version}",
+        key="review_observations",
     )
     observations = []
     for row in edited_rows:
         observation = {field: (row.get(field) or "").strip() for field in ("finding", "quote")}
         if any(observation.values()):
             observations.append(observation)
-    support = st.text_area("Support to use in the worksheet", value=profile["support"], key=f"support-{version}").strip()
+    support = st.text_area("Support to use in the worksheet", value=profile["support"], key="review_support").strip()
     activities = load_activities()
     template_index = st.selectbox(
         "Teaching activity",
         options=list(range(len(activities))),
         format_func=lambda i: activities[i]["label"],
-        key=f"activity-{version}",
+        key="review_activity",
     )
     activity = activities[template_index]
     st.caption(activity["instruction"])
@@ -189,7 +153,11 @@ def create_worksheet(corpus, cases):
 
     # When the underlying profile or lesson changes, require a fresh confirmation
     # and discard any worksheet associated with the previous inputs.
-    context = (profile_context, version, reviewed, activity["id"], passage["id"], objective)
+    st.subheader("3. Generate and review")
+    backend, model, api_key = model_settings()
+    configured = bool(model and (backend == "Ollama" or api_key))
+    context = (reviewed, activity["id"], passage["id"],
+               objective, requirements, backend, model)
     if state.get("worksheet_context") != context:
         state["worksheet_context"] = context
         state["profile_confirmed"] = False
@@ -197,7 +165,6 @@ def create_worksheet(corpus, cases):
     confirmed = st.checkbox("I confirm this profile and lesson objective.", key="profile_confirmed")
     if not confirmed:
         state.pop("worksheet_result", None)
-    st.subheader("3. Generate and review")
     can_generate = confirmed and configured and objective and not problems
     if st.button("Generate worksheet", type="primary", disabled=not can_generate):
         state.pop("worksheet_result", None)
@@ -205,11 +172,8 @@ def create_worksheet(corpus, cases):
             with st.spinner("Drafting and checking the worksheet…"):
                 result = generate_worksheet(
                     passage, reviewed, objective, make_client(backend, model, api_key),
-                    activity=activity,
+                    activity=activity, error_items=error_items, teacher_requirements=requirements,
                 )
-            issues = check_worksheet(result, passage, activity=activity)
-            if issues:
-                raise ValueError("Worksheet checks failed: " + " ".join(issues))
         except (RuntimeError, ValueError) as error:
             st.error(str(error))
         else:
@@ -223,13 +187,13 @@ def main():
     st.set_page_config(page_title="Reading Worksheet Studio", layout="wide")
     st.title("Reading Worksheet Studio")
     st.caption("INFH5000 · Group 5")
-    mode = st.radio("Workspace", ["Worked examples", "Create worksheet"], horizontal=True, label_visibility="collapsed")
+    mode = st.radio("Workspace", ["Reading assessment", "Create worksheet"],
+                    horizontal=True, label_visibility="collapsed", key="workspace")
     corpus = load_corpus()
-    cases = load_cases()
-    if mode == "Worked examples":
-        worked_examples(corpus, cases)
+    if mode == "Reading assessment":
+        reading_assessment(corpus)
     else:
-        create_worksheet(corpus, cases)
+        create_worksheet(corpus)
 
 
 if __name__ == "__main__":

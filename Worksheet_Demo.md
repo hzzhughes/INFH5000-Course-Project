@@ -1,90 +1,80 @@
-# One story, two reading supports
+# From a reading assessment to a sequencing lesson
 
-**INFH5000 · Group 5 | Worked demonstration**
+The scripted attempt earns **37/40 (full mastery)**. Two oral answers put events in the wrong order. The follow-up lesson asks the learner to sequence events in a new story, *The Box on the Bus*.
 
-Both learners read *The Red Ball* and answer the same three questions. One learner needs help keeping their place on the page. The other needs practice figuring out who a pronoun refers to. The fictional assessments and the two worksheets below are hand-authored examples included with the app. You can read this file on its own or open **Worked examples** in the app.
+## How the attempt was scored
 
-## The shared lesson
+This offline example uses the app’s question bank and scorer. The script uses appendix answers for the completed items, with the two exceptions shown below. Choices are scored from the key. The scripted teacher marks award one point to each completed oral or written answer except those two. The final item, D5.14, times out.
 
-**Source** · N1, *The Red Ball* · Narrative · Tier 1 · 96 words  
-**Appendix target** · sentence comprehension  
-**Lesson objective** · Use details from the passage to answer questions about Tim and his ball.
+| Passage | Points | Answered | Skipped | Timed out |
+| --- | ---: | ---: | ---: | ---: |
+| N1 · The Red Ball | 12/13 | 13 | 0 | 0 |
+| I3 · Where Rain Comes From | 12/13 | 13 | 0 | 0 |
+| D5 · The Last Train Home | 13/14 | 13 | 0 | 1 |
+| **Total** | **37/40** | **39** | **0** | **1** |
 
-A boy called Tim has a red ball. He takes it to the park. His dog comes with him. The dog runs after a bird. The ball goes under the big oak tree. Tim looks for the ball. He looks and he looks. Then he sees a hole near the tree. Tim puts his hand into the hole. The ball is in the hole. He takes the ball out. He kicks the ball to the dog. The dog is happy now. Tim is happy too. His mother waits at the gate. The sun is warm today.
+## What the teacher can act on
 
-## Learner 1 · Keeping a place in the text
+**N1.12 · The Red Ball**
 
-### Assessment excerpt
+- Recorded answer · “Tim looks for the ball. The dog runs after a bird. The ball goes under the tree.”
+- Appendix order · The dog runs after a bird, then the ball goes under the tree, then Tim looks for the ball.
+- Teacher mark · 0/1. The one-point criterion is “gives the three events in the order the passage gives them”.
 
-> During a short reading task, the learner twice returned to a line they had already read. When the teacher put two sentences on each strip, the learner moved through the strips in order. The learner answered the teacher’s questions by pointing to details in the story.
+**I3.11 · Where Rain Comes From**
 
-### Teacher’s choice
+- Recorded answer · “A cloud forms, the vapour rises, the drops fall and the rain reaches the ground.”
+- Appendix order · The water vapour rises, a cloud forms, the drops fall down, the rain reaches the ground.
+- Teacher mark · 0/1. The one-point criterion is “gives the four stages in the order the passage gives them”.
 
-Keep the original words. Group each pair of sentences in a separate block so the learner can mark their place.
+The scoring rule pairs these two missed sequencing items. Its suggested support is “Have the learner arrange event cards in passage order, then retell the sequence using the cards.” D5.14 has no response and is excluded from the practice targets.
 
-### Learner worksheet
+The teacher chooses N2, a reserve passage about Ana losing her shoes, so the learner can try the same skill with fresh material. The worksheet below is a prewritten example checked and exported with the app’s worksheet renderer. A live run asks the selected model to draft the worksheet from the missed-item criteria and the teacher’s instructions.
 
-A boy called Tim has a red ball. He takes it to the park.
+## The Box on the Bus
 
-His dog comes with him. The dog runs after a bird.
+**Learning goal**  Retell three events from Ana’s story in the order they happened.
 
-The ball goes under the big oak tree. Tim looks for the ball.
+### Read
 
-He looks and he looks. Then he sees a hole near the tree.
+A girl called Ana is on a bus. She has a blue box in her hands. The box is for her new shoes. The bus is late because of the rain.
 
-Tim puts his hand into the hole. The ball is in the hole.
+Ana looks at her bag. The shoes are not in the bag. The box is empty. She is sad.
 
-He takes the ball out. He kicks the ball to the dog.
+Then she looks under the seat. The shoes are under the seat. Ana takes them out. She puts them in the box. She smiles at the window. The rain stops and the sun comes out. She is late for school today.
 
-The dog is happy now. Tim is happy too.
+### Practice
 
-His mother waits at the gate. The sun is warm today.
+Make three cards. Write one of these sentences on each card.
 
-**Practice** · Use a finger or a strip of paper to mark the block you are reading. Start with the first block. When you reach “park,” move your marker to the next block. Keep going one block at a time.
+A. Ana puts the shoes in the box.
 
-## Learner 2 · Working out who “he” means
+B. Ana looks at her bag.
 
-### Assessment excerpt
+C. Ana finds the shoes under the seat.
 
-> In a story about a boy and his dog, the learner could name both characters. When the next sentence began with “he,” the learner pointed to the dog as the person doing the action. After the teacher asked, “Whose name could go there?”, the learner looked back and pointed to the boy’s name.
+Find each event in the story. Move the cards into story order.
 
-### Teacher’s choice
+### Questions
 
-Model replacing “he” with “Tim” once. Keep a later example of “he” for the learner to resolve by looking back.
+1. What happens first, next and last? Use your cards to retell the story.
 
-### Learner worksheet
+2. Which action comes just before Ana puts the shoes in the box?
 
-A boy called Tim has a red ball. Tim takes the ball to the park. His dog comes with him. The dog runs after a bird.
+### Teacher copy
 
-The ball goes under the big oak tree. Tim looks for the ball. He looks and he looks. Then he sees a hole near the tree.
+Listen for the order of all three events. If two are reversed, ask the learner to point to the sentence for each card, move the cards and try the retelling again.
 
-Tim puts his hand into the hole. The ball is in the hole. Tim takes the ball out. He kicks the ball to the dog.
+#### Answer key
 
-The dog is happy now. Tim is happy too. His mother waits at the gate. The sun is warm today.
+1. B, C, A. Ana looks at her bag, finds the shoes under the seat and puts them in the box.
 
-**Practice** · In the original story, “He takes it to the park” means “Tim takes the ball to the park.” Now find “He kicks the ball to the dog.” Look at the sentence just before it. Point to the name that could replace “He.” Read the kicking sentence aloud using the name.
+   **Source evidence**  “Ana looks at her bag. The shoes are not in the bag. The box is empty. She is sad. Then she looks under the seat. The shoes are under the seat. Ana takes them out. She puts them in the box.”
 
-## Questions for both learners
+2. She takes the shoes out from under the seat.
 
-1. Where does Tim take his ball?
-2. Where does Tim find the ball?
-3. What does Tim do with the ball just after he takes it out?
+   **Source evidence**  “The shoes are under the seat. Ana takes them out. She puts them in the box.”
 
-## Teacher key
+## Reproduce this demo
 
-1. **He takes it to the park.**  
-   Source sentence(s) · “A boy called Tim has a red ball. He takes it to the park.”
-
-2. **In a hole near the tree.**  
-   Source sentence(s) · “Then he sees a hole near the tree. Tim puts his hand into the hole. The ball is in the hole.”
-
-3. **He kicks it to the dog.**  
-   Source sentence(s) · “He takes the ball out. He kicks the ball to the dog.”
-
-## What to show in the presentation
-
-1. Read the two assessment excerpts. Ask which observation justifies each support.
-2. Compare the opening. Learner 1 sees the original wording in two-sentence blocks. Learner 2 sees “Tim takes the ball to the park,” then practices resolving “He” later.
-3. Open the answer key. Both versions ask for the same details and use the same source quotations. A teacher can check whether the assigned support helps the learner reach that shared objective.
-
-**To try a new case** · Open **Create worksheet**, choose an appendix passage, enter a fictional assessment and lesson objective, review the extracted quotations and suggested support, and generate a new worksheet. The saved examples run offline. New generation uses the model selected in the app.
+From the folder containing this file, run `python3 demo.py` to print the scored walkthrough. To record an attempt yourself, open **Reading assessment** in the app, complete the three passages under the shared 15-minute limit, and mark the oral and written responses. Then select **Create worksheet from this assessment**. [App setup](README.md)
